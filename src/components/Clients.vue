@@ -18,7 +18,7 @@
         </v-tooltip>
       </template>
       <template #item.pub="{value}">
-        <a :href="`http://geoiplookup.net/ip/${value}`" target="_blank">{{ value }}</a>
+        <a :href="`https://geoiplookup.io/geo/${value}`" target="_blank">{{ value }}</a>
       </template>
       <template #item.connected="{item}">
         <v-tooltip bottom>
